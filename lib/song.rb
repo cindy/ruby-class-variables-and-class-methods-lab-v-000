@@ -1,7 +1,7 @@
 class Song
   @@count = 0
   @@artists = []
-  @@genres = Hash.new(0)
+  @@genres = []
 
   attr_accessor(:name, :artist, :genre)
 
@@ -12,7 +12,7 @@ class Song
 
     @@count += 1
     @@artists << artist
-    #@@genres[@genre] += 1
+    @@genres << genre
     #require 'pry'; binding.pry
   end
 
