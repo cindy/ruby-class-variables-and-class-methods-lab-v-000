@@ -16,19 +16,5 @@ class Song
     require 'pry'; binding.pry
   end
 
-  def self.count
-    @@count
-  end
 
-  def self.artists
-    @@artists
-  end
-
-  def self.genres
-    @@genres.keys
-  end
-
-  def self.genre_count
-    @@genres
-  end
 end
