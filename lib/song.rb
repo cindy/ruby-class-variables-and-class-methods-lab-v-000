@@ -13,6 +13,7 @@ class Song
     @@count += 1
     @@artists << artist
     @@genres[@genre] += 1
+    require 'pry'; binding.pry
   end
 
   def self.count
