@@ -12,7 +12,7 @@ class Song
 
     @@count += 1
     @@artists << artist
-    require 'pry'; binding.pry
+    #require 'pry'; binding.pry
     @@genres[@genre] += 1
   end
 
